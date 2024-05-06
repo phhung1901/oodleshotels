@@ -1,0 +1,490 @@
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,hr,span,a {margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th {font-size:1em; font-weight:normal; font-style:normal;}
+ul,ol {list-style:none;}
+fieldset,img,hr {border:none;}
+caption,th {text-align:left;}
+table {border-collapse:collapse; border-spacing:0;}
+td {vertical-align:top;}
+
+
+
+
+@font-face {
+				font-family: 'CenturyGothic';
+				src: url('/web/20141226175745im_/http://oodleshotels.com/css/gothic.eot');
+				src: url('/web/20141226175745im_/http://oodleshotels.com/css/gothic.eot#iefix') format('embedded-opentype'),
+						 url('/web/20141226175745im_/http://oodleshotels.com/css/gothic.woff') format('woff'),
+						 url('/web/20141226175745im_/http://oodleshotels.com/css/gothic.ttf') format('truetype'),
+						 url('/web/20141226175745im_/http://oodleshotels.com/css/gothic.svg#gothic') format('svg');
+				font-weight: normal;
+				font-style: normal;
+				}
+
+
+
+
+
+body
+{ margin:0; padding:0; font-family: 'CenturyGothic';
+/*background: rgba(78,4,4,1);
+background: -moz-linear-gradient(top, rgba(78,4,4,1) 0%, rgba(78,4,4,1) 0%, rgba(23,21,23,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(78,4,4,1)), color-stop(0%, rgba(78,4,4,1)), color-stop(100%, rgba(23,21,23,1)));
+background: -webkit-linear-gradient(top, rgba(78,4,4,1) 0%, rgba(78,4,4,1) 0%, rgba(23,21,23,1) 100%);
+background: -o-linear-gradient(top, rgba(78,4,4,1) 0%, rgba(78,4,4,1) 0%, rgba(23,21,23,1) 100%);
+background: -ms-linear-gradient(top, rgba(78,4,4,1) 0%, rgba(78,4,4,1) 0%, rgba(23,21,23,1) 100%);
+background: linear-gradient(to bottom, rgba(78,4,4,1) 0%, rgba(78,4,4,1) 0%, rgba(23,21,23,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e0404', endColorstr='#171517', GradientType=0 );
+background-repeat:no-repeat;*/
+background: rgba(13,13,13,1);
+background: -moz-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(13,13,13,1)), color-stop(75%, rgba(59,59,58,1)), color-stop(100%, rgba(59,59,58,1)));
+background: -webkit-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+background: -o-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+background: -ms-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+background: linear-gradient(to bottom, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#3b3b3a', GradientType=0 );
+}
+
+.wrapper
+{ width:100%; height:auto; margin:0;}
+
+.main_box
+{ width:1000px; height:auto; margin:0 auto;}
+
+
+.header_main
+{ width:100%; height:115px; margin:0 auto; /*background-color:#1A1818;*/
+background: rgba(13,13,13,1);
+background: -moz-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(13,13,13,1)), color-stop(75%, rgba(59,59,58,1)), color-stop(100%, rgba(59,59,58,1)));
+background: -webkit-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+background: -o-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+background: -ms-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+background: linear-gradient(to bottom, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#3b3b3a', GradientType=0 );
+}
+
+.header
+{ width:1000px; height:115px; margin:0 auto; /*background-color:#1A1818;*/
+background: rgba(13,13,13,1);
+background: -moz-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(13,13,13,1)), color-stop(75%, rgba(59,59,58,1)), color-stop(100%, rgba(59,59,58,1)));
+background: -webkit-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+background: -o-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+background: -ms-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+background: linear-gradient(to bottom, rgba(13,13,13,1) 0%, rgba(59,59,58,1) 75%, rgba(59,59,58,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#3b3b3a', GradientType=0 );
+}
+
+.clear
+{ clear:both;}
+
+.slider
+{ width:100%; height:400px; margin:0 auto; background-color:#fff;}
+
+.logo
+{ width:165px; height:100px; float:left; margin:10px 0 0 10px; color:#FFF; font-size:30px; line-height:50px; font-weight:bold;}
+
+.menu_main
+{ width:650px; height:40px; float:right; margin:0 0 0 0;
+
+background: rgba(20,20,20,1);
+background: -moz-linear-gradient(top, rgba(20,20,20,1) 0%, rgba(59,59,58,1) 10%, rgba(59,59,58,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(20,20,20,1)), color-stop(10%, rgba(59,59,58,1)), color-stop(100%, rgba(59,59,58,1)));
+background: -webkit-linear-gradient(top, rgba(20,20,20,1) 0%, rgba(59,59,58,1) 10%, rgba(59,59,58,1) 100%);
+background: -o-linear-gradient(top, rgba(20,20,20,1) 0%, rgba(59,59,58,1) 10%, rgba(59,59,58,1) 100%);
+background: -ms-linear-gradient(top, rgba(20,20,20,1) 0%, rgba(59,59,58,1) 10%, rgba(59,59,58,1) 100%);
+background: linear-gradient(to bottom, rgba(20,20,20,1) 0%, rgba(59,59,58,1) 10%, rgba(59,59,58,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141414', endColorstr='#3b3b3a', GradientType=0 );
+}
+
+.hotels_name
+{ width:395px; height:35px; float:right; margin:29px 0 0 0; font-size:18px; color:#fff; font-weight:normal; line-height:35px;}
+
+.home_main_content
+{ width:1000px; height:auto; float:left; margin:0; /*background-color:#1f1f1f;*/}
+
+.home_main_right
+{ width:320px; height:330px; float:right; margin:70px 20px 20px 0; border:#666 solid 3px;}
+
+.home_main_left
+{ width:600px; height:400px; float:left; margin:35px 0 20px 20px;}
+
+.online_reservation
+{ width:300px; height:30px; float:left; margin:10px 10px 0 10px; border-bottom:#666 solid 3px; font-size:20px; color:#CCC; line-height:30px; text-align:center;}
+
+.reservation_box
+{ width:300px; height:auto; float:left; margin:20px 10px 10px 10px;}
+
+.check_in_box
+{ width:120px; height:50px; float:left; margin:0;}
+.check_date_box
+{ width:135px; height:25px; float:left; margin:0; border:#CCCCCC solid 1px;}
+
+.check_out_box
+{ width:120px; height:50px; float:left; margin:0 0 0 40px;}
+.checkout_date_box
+{ width:135px; height:25px; float:left; margin:0; border:#CCCCCC solid 1px;}
+
+.room_reservation
+{ width:80px; height:50px; float:left; margin:20px 0 0 0;}
+.room_reservation_box
+{ width:80px; height:25px; float:left; border:#CCCCCC solid 1px;}
+
+.adults_reservation
+{ width:80px; height:50px; float:left; margin:20px 0 0 28px;}
+.adults_reservation_box
+{ width:80px; height:25px; float:left; border:#CCCCCC solid 1px;}
+
+.child_reservation
+{ width:80px; height:50px; float:left; margin:20px 0 0 28px;}
+.child_reservation_box
+{ width:80px; height:25px; float:left; border:#CCCCCC solid 1px;}
+
+.day_main
+{ width:120px; height:50px; float:left; margin-top:20px;}
+.day_main_box
+{ width:135px; height:25px; float:left; margin:0; border:#CCCCCC solid 1px;}
+
+.night_main
+{ width:120px; height:50px; float:left; margin:20px 0 0 40px;}
+.night_main_box
+{ width:135px; height:25px; float:left; margin:0; border:#CCCCCC solid 1px;}
+
+.submit
+{ width:100px; height:25px; padding:3px 10px; float:left; margin:0; border:#CCCCCC solid 1px;}
+
+.continue
+{ width:100%; height:auto;  margin:0 auto; font-size:14px; color:#8D8D8D; font-weight:normal; text-align:center; line-height:19px; text-decoration:none;}
+
+.link4
+{ font-size:14px; color:#ccc; font-weight:normal; line-height:19px; text-decoration:underline;}
+.link4:hover
+{ font-size:14px; color:#fff; font-weight:normal; line-height:19px; text-decoration:none;}
+
+
+
+/*FOOTER*/
+
+.footer_main_box
+{width:100%; height:60px; margin:0 auto; /*background-color:#1A1818;*/
+background: rgba(31,31,31,1);
+background: -moz-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(69,69,68,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(31,31,31,1)), color-stop(100%, rgba(69,69,68,1)));
+background: -webkit-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(69,69,68,1) 100%);
+background: -o-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(69,69,68,1) 100%);
+background: -ms-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(69,69,68,1) 100%);
+background: linear-gradient(to bottom, rgba(31,31,31,1) 0%, rgba(69,69,68,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#454544', GradientType=0 );
+}
+
+.footer_main
+{width:1000px; height:60px; margin:0 auto;/*background-color:#1A1818;*/
+background: rgba(31,31,31,1);
+background: -moz-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(69,69,68,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(31,31,31,1)), color-stop(100%, rgba(69,69,68,1)));
+background: -webkit-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(69,69,68,1) 100%);
+background: -o-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(69,69,68,1) 100%);
+background: -ms-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(69,69,68,1) 100%);
+background: linear-gradient(to bottom, rgba(31,31,31,1) 0%, rgba(69,69,68,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#454544', GradientType=0 );
+}
+
+.footer
+{ width:980px; height:35px; float:left; margin:10px;}
+.footer ul
+{list-style:none;margin:0;padding:0;}
+.footer ul li
+{ line-height:35px; float:left;}
+.footer ul li a
+{font-size:14px; color:#8D8D8D; display:block; text-decoration:none; font-weight:normal; padding:0 17px;}
+.footer ul li a:hover
+{ color:#FFFFFF; text-decoration:underline;}
+
+.oodles_main_box
+{ width:980px; height:auto; float:left; margin:10px 10px 0 10px;}
+
+.oodles_main
+{ width:150px; height:40px; float:right; padding:0 10px 0 0; border-right:#5C5C5C  solid 1px;}
+
+h1
+{ font-size:18px; color:#CCCCCC; font-weight:normal; line-height:22px;}
+
+h2
+{ font-size:27px; color:#CCCCCC; font-weight:normal; font-family: 'CenturyGothic';}
+
+h3
+{ font-size:22px; color:#CCCCCC; font-weight:normal; margin-top:40px;}
+
+p
+{ font-size:12px; color:#8D8D8D; font-weight:normal; line-height:19px; font-family: 'CenturyGothic';}
+
+
+.link1
+{ font-size:12px; color:#8D8D8D; font-weight:normal; line-height:19px; text-decoration:none;}
+.link1:hover
+{ font-size:12px; color:#fff; font-weight:normal; line-height:19px; text-decoration:none;}
+
+.facebook_main_box
+{ width:200px; height:30px;; float:left; margin:10px 0 0 0;}
+.facebook_icons
+{ width:30px; height:30px;; float:left;}
+.facebook_name
+{ width:110px; height:30px; font-size:16px; color:#8D8D8D; font-weight:normal; line-height:30px; margin-left:20px;}
+.link2
+{ font-size:16px; color:#8D8D8D; font-weight:normal; text-decoration:underline; margin-left:20px;}
+.link2:hover
+{ font-size:16px; color:#fff; font-weight:normal; text-decoration:none; margin-left:20px;}
+
+#btn
+{width:140px; height:20px; line-height:20px; float:right;  background-color:#999; color:#fff; padding:5px 20px; font-size:16px; text-decoration:none;}
+#btn:hover
+{width:140px; height:20px; line-height:20px; background-color:#fff; color:#000; padding:5px 20px; font-size:16px; text-decoration:none;}
+#change
+{width:300px; height:380px; background-color:#fff; border:#666 solid 2px; margin:115px 0 0 681px; position:absolute; z-index:99999; float:right; padding:10px;display:none;}
+
+#btnclose
+{width:20px; height:20px; float:right; background-image:url(/web/20141226175745im_/http://oodleshotels.com/image/close_delet.png); background-repeat:no-repeat;}
+
+.reservation_enquiry
+{ width:300px; height:25px; float:left; font-size:16px; color:#000; border-bottom:#666666 solid 2px; line-height:25px;}
+
+.name_main_enquiry
+{ width:280px; height:auto; float:left; margin:10px 0 0 0;}
+.name_enquiry
+{ width:77px; height:20px; float:left; font-size:14px; line-height:20px; color:#525050;}
+.name_enquiry_box
+{ width:180px; height:20px; float:left; margin:0 0 0 10px; border:#969696 solid 1px; padding:0 5px;}
+
+
+
+/*DINING*/
+.dining_main_content
+{ width:960px; height:auto; float:left; margin:25px 0 20px 20px;}
+
+
+/*CAREER*/
+.career_main_content
+{ width:960px; height:auto; float:left; margin-top:5px; margin-bottom:35px;}
+
+.sr_no_main_content
+{ width:960px; height:25px; float:left; border:#646464 solid 1px;}
+
+.sr_no
+{ width:50px; height:25px; float:left; border-right:#646464 solid 1px; line-height:25px; font-size:16px; padding-left:3px; color:#CCCCCC;}
+
+.job_title
+{ width:160px; height:25px; float:left; border-right:#646464 solid 1px; line-height:25px; font-size:16px; padding-left:3px; color:#CCCCCC;}
+
+.category
+{ width:160px; height:25px; float:left; border-right:#646464 solid 1px; line-height:25px; font-size:16px; padding-left:3px; color:#CCCCCC;}
+
+.location
+{ width:200px; height:25px; float:left; border-right:#646464 solid 1px; line-height:25px; font-size:16px; padding-left:3px; color:#CCCCCC;}
+
+.open_post
+{ width:160px; height:25px; float:left; border-right:#646464 solid 1px; line-height:25px; font-size:16px; padding-left:3px; color:#CCCCCC;}
+
+.action
+{ width:160px; height:25px; float:left; line-height:25px; font-size:16px; padding-left:3px; color:#CCCCCC;}
+
+.sr_no_main_content1
+{ width:960px; height:25px; float:left; border:#646464 solid 1px;}
+
+.sr_no1
+{ width:50px; height:25px; float:left; border-right:#646464 solid 1px; line-height:25px; text-align:center; font-size:12px; padding-left:3px; color:#CCCCCC;}
+
+.job_title1
+{ width:160px; height:25px; float:left; border-right:#646464 solid 1px; line-height:25px; font-size:12px; padding-left:3px; color:#CCCCCC;}
+
+.category1
+{ width:160px; height:25px; float:left; border-right:#646464 solid 1px; line-height:25px; font-size:12px; padding-left:3px; color:#CCCCCC;}
+
+.location1
+{ width:200px; height:25px; float:left; border-right:#646464 solid 1px; line-height:25px; font-size:12px; padding-left:3px; color:#CCCCCC;}
+
+.open_post1
+{ width:160px; height:25px; float:left; border-right:#646464 solid 1px; line-height:25px; font-size:12px; padding-left:3px; text-align:center; color:#CCCCCC;}
+
+.action1
+{ width:160px; height:25px; float:left;  line-height:25px; font-size:12px; padding-left:3px; color:#CCCCCC;}
+
+.link3
+{ font-size:12px; color:#ccc; font-weight:normal; text-decoration:none;}
+.link3:hover
+{ font-size:12px; color:#fff; font-weight:normal; text-decoration:underline;}
+
+
+.location_map
+{ width:350px; height:auto; float:left; border:#646464 solid 1px; padding:10px; margin:20px 0 0 0;}
+.google_map
+{ width:535px; height:233px; float:left; border:#646464 solid 1px;}
+
+.add_main_contact
+{ width:400px; height:auto; float:left; border:#646464 solid 1px; padding:10px; margin:40px 0 0 0;}
+
+/*upen*/
+.gallery2
+{
+	width:100%;
+	height:200px;
+	margin:20px auto;
+}
+.gallery2 img
+{
+	width:180px;
+	height:100px;
+	float:left;
+	margin:10px 8px;
+	border:2px solid #fff;
+	max-width:900px;
+}
+.gallery ul li
+{
+	width:auto;
+	float:left;
+	margin:5px 5px;
+}
+.box
+{
+	background:url(/web/20141226175745im_/http://oodleshotels.com/image/venu.jpg) no-repeat;
+	width:300px;
+	height:200px;
+	background-size:100%;
+}
+/*upen*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 17:57:45 Dec 26, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:02:01 May 06, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.614
+  exclusion.robots: 0.078
+  exclusion.robots.policy: 0.069
+  cdx.remote: 0.059
+  esindex: 0.009
+  LoadShardBlock: 53.994 (3)
+  PetaboxLoader3.datanode: 289.077 (4)
+  load_resource: 372.054
+  PetaboxLoader3.resolve: 119.509
+*/
