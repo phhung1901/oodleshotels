@@ -347,10 +347,24 @@ p
 }
 .box
 {
-	background:url(/web/20141226175745im_/http://oodleshotels.com/image/venu.jpg) no-repeat;
+	background:url(/image/venu.jpg) no-repeat;
 	width:300px;
 	height:200px;
 	background-size:100%;
+}
+.blog h2{
+	text-align: center;
+	margin: 2rem 0;
+}
+.blog .list-articles{
+	text-align: center;
+	margin-bottom: 5rem;
+}
+.blog .list-articles li{
+	margin: 1rem 0;
+}
+.blog .list-articles a{
+	color: #CCCCCC;
 }
 /*upen*/
 
