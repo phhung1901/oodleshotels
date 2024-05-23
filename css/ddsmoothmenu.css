@@ -16,7 +16,7 @@
 .ddsmoothmenu{
 font:14px Verdana;
 background: #414141; /*background of menu bar (default state)*/
-width: 700px;
+width: 100%;
 }
 
 .ddsmoothmenu ul{
